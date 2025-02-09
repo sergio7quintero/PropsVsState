@@ -1,13 +1,13 @@
 # PropsVsState
 Deep Dive on Props vs State with react
 
-How useState is Used
+## How useState is Used
 The application utilizes the useState hook in the FilterableProductTable component to manage the following states:
 filterText: A string that tracks the search input and filters products accordingly.
 inStockOnly: A boolean that determines whether only in-stock products should be displayed.
 
-How Props is Used
-Props are used to pass data and functions between parent and child components
+## How Props is Used
+- Props are used to pass data and functions between parent and child components
 
 FilterableProductTable → SearchBar
 Passes down filterText, inStockOnly, and their corresponding setter functions (onFilterTextChange, onInStockOnlyChange).
