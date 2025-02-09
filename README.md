@@ -7,7 +7,7 @@ filterText: A string that tracks the search input and filters products according
 inStockOnly: A boolean that determines whether only in-stock products should be displayed.
 
 ## How Props is Used
-- Props are used to pass data and functions between parent and child components
+Props are used to pass data and functions between parent and child components
 
 FilterableProductTable → SearchBar
 Passes down filterText, inStockOnly, and their corresponding setter functions (onFilterTextChange, onInStockOnlyChange).
